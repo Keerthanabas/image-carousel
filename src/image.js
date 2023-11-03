@@ -1,8 +1,8 @@
 import React from 'react';
-import {data} from "./data"
+// import {data} from "./data"
 import "./image.css";
-import { IconName } from "react-icons/bs";
-import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from "react-icons/bs"
+//import { IconName } from "react-icons/bs";
+import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from 'bootstrap-icons/react';
 
 
 const Image = ({data})=>{
@@ -17,7 +17,7 @@ return(
     )
 })
 }
-<BsArrowRightCircleFill/>
+    <BsArrowRightCircleFill/>
 </div>
 
     )
