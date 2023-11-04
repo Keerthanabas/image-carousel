@@ -25,7 +25,7 @@
 }
 .arrow:hover{
     cursor: pointer;
-    color: aqua;
+    color: rgb(88, 113, 113);
 }
 .arrow-left{
     left: 1rem;

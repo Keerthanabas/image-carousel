@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import "./App.css"
 // import {data} from "./data"
 import "./image.css";
 //import { IconName } from "react-icons/bs";
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from 'react-icons/bs';
-// import "bootstrap-icons/font/bootstrap-icons.css";
-//import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 const Image = ({data})=>{
@@ -12,10 +12,10 @@ const Image = ({data})=>{
     const[slide,setSlide]=useState(0);
 
     const nextslide = () =>{
-   setSlide (slide+1);
+   setSlide (slide === data.length -1 ? 0 : slide + 1);
     }
     const previousslide =()=>{
-setSlide(slide-1)
+setSlide(slide === 0 ? data.length -1 : slide-1)
     }
     
 return(
@@ -32,7 +32,7 @@ return(
     <span className='indicators'>
         {data.map((item,index)=>{
             return ( 
-            <button key={index} onClick={null} className={slide === index ? "indicator" : "indicator indicator-inactive"}></button> 
+            <button key={index} onClick={()=>setSlide(index)} className={slide === index ? "indicator" : "indicator indicator-inactive"}></button> 
             );
         })}
     </span>
