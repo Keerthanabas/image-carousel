@@ -4,4 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE);
+}
+h1{
+    background-color: #80FFDB;
 }
