@@ -76,4 +76,8 @@ If you'd like to contribute to this project or report any issues, please follow 
 - Thanks to the React.js community for providing valuable resources and documentation.
 - Bootstrap Icons for enhancing the user interface.
 
-Enjoy working with this Image Carousel React Project! You can check the live demo.
+Enjoy working with this Image Carousel React Project! 
+
+## Description
+
+   You can check the live demo : https://image-carousel.pages.dev/
