@@ -6,7 +6,6 @@ import "./image.css";
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from 'react-icons/bs';
 
 
-
 const Image = ({data})=>{
     console.log(data)
     const[slide,setSlide]=useState(0);
