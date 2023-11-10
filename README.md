@@ -30,7 +30,7 @@ To get a copy of this project up and running on your local machine, follow these
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/image-carousel-react.git
+   git clone https://github.com/Keerthanabas/image-carousel.git
    ```
 
 2. Navigate to the project directory:
