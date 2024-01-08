@@ -36,7 +36,6 @@ return(
         })}
     </span>
 </div>
-
-    )
+)
 }
 export default Image
